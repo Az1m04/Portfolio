@@ -1,0 +1,113 @@
+{
+  "main": {
+    "name": "Md Azim Babu",
+    "occupation": "Software Developer",
+    "description": "I eat, sleep and repeat",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Azim!. I've been started coding recently and moving toward as a Full Stack developer, I've working in startups corporations to help build & scale their companies.",
+    "contactmessage": "Get in touch with me!",
+    "email": "azimcool06@gmail.com",
+    "phone": "+91 8837772881",
+    "address": {
+      "town": "Chenari",
+      "city": "Babhua",
+      "state": "Bihar",
+      "zip": "821104"
+    },
+    
+    "resumedownload": "https://drive.google.com/file/d/1NOpUJiiNjptrahUFFZAe13fGOFcS2r9P/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/azim.cool.716/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/mdazimbabu/",
+        "className": "fa fa-linkedin"
+      },
+  
+      {
+        "name": "github",
+        "url": "https://github.com/Az1m04",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Lovely Professional University",
+        "degree": "Bachelor's Degree, Computer Science",
+        "graduated": "July 2021"
+      
+      }
+    ],
+    "work": [
+      {
+        "company": "SimbaQuartz",
+        "title": "Software developer",
+        "years": "August 2021 - Present",
+        "description": "Working on building clint apps and admin apps."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "Python",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "99%"
+      },
+      {
+        "name": "Web Development",
+        "level": "95%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Suhavi Audiobook ",
+        "category": "",
+        "image": "suhavi.png",
+        "url": "https://suhavi.web.app/"
+      },
+      {
+        "title": "Ocean Trucking",
+        "category": "",
+        "image": "gmail.png",
+        "url": "https://ocean-trucking.web.app"
+      },
+      {
+        "title": "Academy On board ",
+        "category": "",
+        "image": "omg.png",
+        "url": "https://academy-on-board.web.app"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
+        "user": "Jorge Fouto"
+      },
+      {
+        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
+        "user": "Adam Curtis"
+      }
+    ]
+  }
+}
