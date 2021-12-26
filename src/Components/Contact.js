@@ -30,23 +30,34 @@ const Contact = ({ data }) => {
   return (
     <section id="contact">
       <div className="row section-head">
-        <div className="two columns header-col">
-          <h1>
-            <span style={{fontSize:'30px'}}>Get In Touch.</span>
-          </h1>
+      <div className="flex ">
+      <div className="">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="100"
+            height="100"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+          </svg>
         </div>
 
-        <div className="ten columns">
-          <p   style={{fontSize:'30px',fontWeight:'bold'}} className="lead">{contactMessage}</p>
+        <div className=" ml-5 w-full mt-5">
+          <p  className="font-bold text-6xl">
+            {contactMessage}
+          </p>
         </div>
+      </div>
+ 
       </div>
 
       <div className="row">
-        <div className="eight columns">
+        <div className="eight columns shadow-2xl rounded-xl px-10 py-10">
           <form onSubmit={submitForm}>
             <fieldset>
-              <div  >
-                <label  style={{fontSize:'20px'}} htmlFor="contactName">
+              <div className="mt-10 ">
+                <label style={{ fontSize: "20px" }} htmlFor="contactName">
                   Name <span className="required">*</span>
                 </label>
                 <input
@@ -56,12 +67,13 @@ const Contact = ({ data }) => {
                   size="35"
                   id="contactName"
                   name="contactName"
+    
                   onChange={(e) => setName(e.target.value)}
                 />
               </div>
 
               <div>
-                <label style={{fontSize:'20px'}} htmlFor="contactEmail">
+                <label style={{ fontSize: "20px" }} htmlFor="contactEmail">
                   Email <span className="required">*</span>
                 </label>
                 <input
@@ -76,7 +88,9 @@ const Contact = ({ data }) => {
               </div>
 
               <div>
-                <label style={{fontSize:'20px'}} htmlFor="contactSubject">Subject</label>
+                <label style={{ fontSize: "20px" }} htmlFor="contactSubject">
+                  Subject
+                </label>
                 <input
                   type="text"
                   defaultValue=""
@@ -89,12 +103,12 @@ const Contact = ({ data }) => {
               </div>
 
               <div>
-                <label style={{fontSize:'20px'}} htmlFor="contactMessage">
+                <label style={{ fontSize: "20px" }} htmlFor="contactMessage">
                   Message <span className="required">*</span>
                 </label>
                 <textarea
                   cols="50"
-                  rows="15"
+      
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   id="contactMessage"
@@ -102,8 +116,8 @@ const Contact = ({ data }) => {
                 ></textarea>
               </div>
 
-              <div>
-                <button onClick={submitForm} type="submit" className="submit">
+              <div className="flex justify-end mr-20 px-4">
+                <button onClick={submitForm} type="submit" className="submit ">
                   Submit
                 </button>
               </div>
@@ -117,10 +131,10 @@ const Contact = ({ data }) => {
           </div>
         </div>
 
-        <aside className="four columns footer-widgets">
-          <div className="widget widget_contact">
-            <h4 style={{fontSize:'30px'}}>Address and Phone</h4>
-            <p style={{fontSize:'20px'}} className="address">
+        <aside className="four columns footer-widgets ">
+          <div className="widget widget_contact ml-5">
+            <h4 style={{ fontSize: "30px" }}>Address and Phone</h4>
+            <p style={{ fontSize: "20px" }} className="address">
               {contactName}
               <br />
               {contactEmail}

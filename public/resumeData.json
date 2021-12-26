@@ -14,7 +14,7 @@
       "state": "Bihar",
       "zip": "821104"
     },
-    
+
     "resumedownload": "https://drive.google.com/file/d/1NOpUJiiNjptrahUFFZAe13fGOFcS2r9P/view?usp=sharing",
     "social": [
       {
@@ -27,7 +27,7 @@
         "url": "https://www.linkedin.com/in/mdazimbabu/",
         "className": "fa fa-linkedin"
       },
-  
+
       {
         "name": "github",
         "url": "https://github.com/Az1m04",
@@ -42,7 +42,6 @@
         "school": "Lovely Professional University",
         "degree": "Bachelor's Degree, Computer Science",
         "graduated": "July 2021"
-      
       }
     ],
     "work": [
@@ -95,18 +94,6 @@
         "category": "",
         "image": "omg.png",
         "url": "https://academy-on-board.web.app"
-      }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
-      },
-      {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Adam Curtis"
       }
     ]
   }

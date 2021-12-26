@@ -49,11 +49,7 @@ const Header = ({ data }) => {
               Works
             </a>
           </li>
-          <li>
-            <a style={{fontSize:'20px'}} className="smoothscroll" href="#testimonials">
-              Testimonials
-            </a>
-          </li>
+          
           <li>
             <a style={{fontSize:'20px'}} className="smoothscroll" href="#contact">
               Contact
